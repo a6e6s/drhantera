@@ -26,10 +26,6 @@
     <header class="header_area" dir="rtl">
         <div class="top_menu row m0">
             <div class="container">
-                <div class="float-left">
-                    <a class="dn_btn ml-5" href="tel:00966557474254"> <i class="ti-mobile"></i>00966557474254</a>
-                    <a class="dn_btn" href="tel:00966557474254"> <i class="ti-mobile"></i>00966581802222</a>
-                </div>
                 <div class="float-right">
                     <ul class="list header_social">
                         <li><a href="#"><i class="ti-facebook"></i></a></li>
@@ -46,24 +42,11 @@
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#feature">الخدمات</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#services">معلومات</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#about">عنا</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#testimonial">آراء العملاء</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#appointment">سجل الآن</a></li>
-                        </ul>
+                    <div class="float-left">
+                        <h5><a class="dn_btn" href="tel:00966557474254"> <i class="ti-mobile"></i> +966557474254</a></h5>
+                        <h5><a class="dn_btn" href="tel:00966557474254"> <i class="ti-mobile"></i> +966581802222</a></h5>
                     </div>
+
                 </div>
             </nav>
         </div>
@@ -75,17 +58,17 @@
     <section class="banner-area d-flex align-items-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-lg-6 col-xl-5 text-right">
+                <div class="col-md-8 col-lg-6 col-xl-5 text-center">
                     <h1>اذا كنت طفشان من لبس النظارة والعدسات </h1>
                     <p class="banner-text"><span class="text-danger">لا يفوتك العرض هذا </span><br>
-                        عملية السوبرلازك ٣٩٩٩ ريال
-                        <del>(قبل العرض ٩ الاف ريال)</del>
+                        عملية السوبرلازك <span class="large">٣٩٩٩ ريال</span>
+                        <br>
+                        <del>(قبل العرض ٩ الاف ريال)</del><br>
                         وكمان لك كشف مجاني <br>
                         مع <span class="text-primary">الدكتور حنتيره</span>
                         (عيادة جده- السعوديه)
                     </p>
-                    <a href="#feature" class="main_btn_light ">خدماتنا</a>
-                    <a href="#appointment" class="main_btn">احجز الآن</a>
+                    <a href="#appointment" class="main_btn bg-orange">احجز كشفك المجاني الآن</a>
                 </div>
             </div>
         </div>
@@ -135,27 +118,32 @@
         </div>
     </section>
     <!--================ Feature section end =================-->
-
-    <!--================ Service section start =================-->
-
-    <div class="service-area area-padding-top" id="services">
+    <div class=" counter area-padding-top">
         <div class="container">
             <div class="area-heading row text-right" dir="rtl">
                 <div class="col-md-5 col-xl-4">
                     <h3>عرض <br>
                         لفترة محدودة</h3>
                 </div>
-                <div class="col-md-7 col-xl-8">
+                <div class="col-md-7 col-xl-8 text-center">
                     <p>
-                        <div id="timer" class="d-flex mb-3" dir="ltr">
-                            <div class="time" id="days"></div>
-                            <div class="time pl-4" id="hours"></div>
-                            <div class="time pl-4" id="minutes"></div>
-                            <div class="time pl-4" id="seconds"></div>
+                        <div id="timer" class="row mb-3" dir="ltr">
+                            <div class="time col-6 col-lg-3 pt-3" id="days"></div>
+                            <div class="time col-6 col-lg-3 pt-3" id="hours"></div>
+                            <div class="time col-6 col-lg-3 pt-3" id="minutes"></div>
+                            <div class="time col-6 col-lg-3 pt-3" id="seconds"></div>
                         </div>
                     </p>
                 </div>
             </div>
+        </div>
+
+    </div>
+    <!--================ Service section start =================-->
+    <!-- 
+    <div class="service-area area-padding-top" id="services">
+        <div class="container">
+
             <div class="row text-right" dir="rtl">
                 <div class="col-md-6 col-lg-4">
                     <div class="card-service mb-4 mb-lg-0">
@@ -213,6 +201,7 @@
             </div>
         </div>
     </div>
+     -->
     <!--================ Service section end =================-->
 
 
@@ -247,7 +236,12 @@
                             <img class="card-img rounded-0" src="img/team/drhantera1.JPG" alt="">
                             <div class="card-team__body text-center">
                                 <h3><a href="#">دكتور محمد حنتيرة </a></h3>
-                                <p>استشاري جراحات القرنية وتصحيح النظر وعمليات المياه البيضاء</p>
+                                <p class=""><strong>
+                                        استاذ مساعد (ش)
+                                        جامعة ام القري مكة المكرمة السعودية
+                                        دكتوراة وزمالة كلية الجراحين الملكية البريطانية
+
+                                    </strong></p>
                                 <div class="team-footer d-flex justify-content-between">
                                     <a class="dn_btn" href="tel:00966581802222"><i
                                             class="ti-mobile"></i>+966581802222</a>
@@ -280,24 +274,24 @@
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="optradio">احجز لي موعد كشف
+                                        <input type="radio" class="form-check-input" name="optradio">ارغب في موعد كشف
                                         مجاني خلال يومين
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="optradio">احجز لي موعد كشف
+                                        <input type="radio" class="form-check-input" name="optradio">ارغب في موعد كشف
                                         مجاني خلال اسبوع
                                     </label>
                                 </div>
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" name="optradio">احجز لي
+                                        <input type="radio" class="form-check-input" name="optradio">ارغب في
                                         موعد كشف مجاني خلال شهر
                                     </label>
                                 </div>
 
-                                <a href="#" class="main_btn">احجز الآن</a>
+                                <a href="#" class="main_btn bg-orange">احجز </a>
                             </form>
                         </div>
                     </div>
@@ -395,6 +389,193 @@
     </section>
     <!-- ================ testimonial section end ================= -->
 
+
+    <!--================ appointment Area Starts =================-->
+    <section class="appointment-area">
+        <div class="container">
+
+            <div class="appointment-inner">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mx-3 text-right">
+
+                            <h3>أسئلة تهمك?</h3>
+                            <div class="accordion" id="accordionExample">
+
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                ما هي الأنواع المتوفره لدينا بالمركز؟
+                                            </button>
+
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            ج:
+                                            <ol dir="rtl">
+                                                <li>الأبي لازك</li>
+                                                <li>الترانس</li>
+                                                <li>السوبرلازك</li>
+                                                <li>الالتراليزك</li>
+                                                <li> بصمه العين (ثلاثي الأبعاد)</li>
+                                                <li>الفيمتوليزك</li>
+                                                <li>الفيمتوسمايل</li>
+                                                <li>الليزر السطحي</li>
+
+                                            </ol>
+                                            السوبراكور (مرضي فوق ٤٥) فقط في فرع القاهره
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                هل المريض هو الي يختار نوع العمليه؟
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            ج: لا.. الطبيب بناء علي خبرته هو الي يحدد العمليه الانسب لعينك بناء علي
+                                            الكشف والفحوصات .
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                هل ممكن اعمل الفحوصات ولا تناسب ي عمليات الليزك / الفيمتو؟
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            نعم في كل ٤ مرضي يتم الكشف عليهم واحد فقط لا تناسب العمليه - ويكون له خيارات
+                                            مثل أن يكمل ارتداء النظاره / العدسات أو زراعه العدسات
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" id="headingFour">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseFour" aria-expanded="false"
+                                                aria-controls="collapseFour">
+                                                هل يجب أن احضر مرافق معي؟
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            نعم - لأنه قد يحتاج الطبيب الي وضع قطرات توسيع والتي تؤدي الي زغلله من ١٠-١٨
+                                            ساعه بعد الكشف ثم ترجع لوضعك الطبيعي
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" id="headingFive">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseFive" aria-expanded="false"
+                                                aria-controls="collapseFive">
+                                                هل يمكن أن أجري الكشف والعمليه في نفس اليوم؟ 
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            لا... يوم الكشف غير يوم العمليات
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" id="headingsix">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapsesix" aria-expanded="false"
+                                                aria-controls="collapsesix">
+                                                كم يوم اجازه تصرف لي بعد العمليه؟
+                                        </h5>
+                                    </div>
+                                    <div id="collapsesix" class="collapse" aria-labelledby="headingsix"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            ٣-٥ ايام
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingseven">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseseven" aria-expanded="false"
+                                                aria-controls="collapseseven">
+                                                هل من الممكن أن يضعف النظر بعد سنوات؟
+                                             </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseseven" class="collapse" aria-labelledby="headingseven"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            نعم هناك نسبقه قليله تحتاج الي إعادة اجراء العمليه أو العودة الي ارتداء
+                                            نظارات طبيه
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingeight">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                data-target="#collapseeight" aria-expanded="false"
+                                                aria-controls="collapseeight">
+                                                لماذا تختلف الأسعار بين مركز وآخر؟ 
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseeight" class="collapse" aria-labelledby="headingeight"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                                حسب خبرة كل طبيب (علما ان الدكتور حنتيره له خبره تزيد عن ٢٠ عاما تجاوز إجراء عمليات اليزر والليزك عن ٤٠ الف عمليه) وحسب إمكانيات كل مركز والتقنيات المتوفره (علما ان المركز متوفر به عدد كبير من تقنيات تحت سقف واحد)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!--================ appointment Area End =================-->
+
+
     <!-- ================ Hotline Area Starts ================= -->
     <section class="hotline-area text-center area-padding">
         <div class="container">
@@ -449,7 +630,6 @@
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/waypoints.min.js"></script>
-    <script src="js/mail-script.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
